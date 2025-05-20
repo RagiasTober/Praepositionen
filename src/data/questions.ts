@@ -10,19 +10,19 @@ export const questions: Question[] = [
   },
   {
     question: "Er fährt ___ dem Fahrrad zur Schule.",
-    options: ["mit", "auf", "bei", "in"],
+    options: ["mit", "durch", "bei", "in"],
     answer: "mit",
     explanation: "Man sagt 'mit dem Fahrrad fahren', um das Verkehrsmittel auszudrücken."
   },
   {
     question: "Wir treffen uns ___ dem Kino.",
-    options: ["vor", "hinter", "auf", "unter"],
+    options: ["vor", "über", "auf", "unter"],
     answer: "vor",
     explanation: "'vor dem Kino' beschreibt eine örtliche Position."
   },
   {
     question: "___ dem Essen wäscht sie sich die Hände.",
-    options: ["Vor", "Nach", "Während", "Seit"],
+    options: ["Vor", "In", "Während", "Seit"],
     answer: "Vor",
     explanation: "'vor dem Essen' beschreibt eine zeitliche Reihenfolge."
   },
@@ -34,13 +34,13 @@ export const questions: Question[] = [
   },
   {
     question: "Sie steht ___ der Tür.",
-    options: ["an", "auf", "in", "zwischen"],
+    options: ["an", "über", "mit", "durch"],
     answer: "an",
     explanation: "'an der Tür stehen' beschreibt die Position direkt bei der Tür."
   },
   {
     question: "Das Buch liegt ___ dem Tisch.",
-    options: ["auf", "an", "in", "neben"],
+    options: ["auf", "an", "in", "zwischen"],
     answer: "auf",
     explanation: "'auf dem Tisch' beschreibt die Position oben auf einer Oberfläche."
   },
@@ -52,7 +52,7 @@ export const questions: Question[] = [
   },
   {
     question: "Sie kommt ___ Berlin.",
-    options: ["aus", "von", "in", "zu"],
+    options: ["aus", "seit", "in", "zu"],
     answer: "aus",
     explanation: "'aus Berlin kommen' bedeutet, dass Berlin der Herkunftsort ist."
   },
@@ -75,26 +75,26 @@ export const questions: Question[] = [
     explanation: "'von ... bis' gibt einen Zeitraum an."
   },
   {
-    question: "Er steht ___ dem Baum.",
-    options: ["unter", "über", "auf", "in"],
+    question: "Er liegt ___ dem Baum.",
+    options: ["unter", "über", "zwischen", "in"],
     answer: "unter",
     explanation: "'unter dem Baum' beschreibt die Position unterhalb des Baumes."
   },
   {
     question: "Das Museum liegt ___ der Brücke.",
-    options: ["hinter", "neben", "zwischen", "vor"],
+    options: ["hinter", "durch", "von", "mit"],
     answer: "hinter",
     explanation: "'hinter der Brücke' bedeutet, dass das Museum sich auf der Rückseite der Brücke befindet."
   },
   {
-    question: "Sie kommen ___ dem Flughafen.",
-    options: ["vom", "zum", "beim", "im"],
+    question: "Sie kommen ___ Flughafen.",
+    options: ["vom", "mit", "beim", "im"],
     answer: "vom",
     explanation: "'vom Flughafen kommen' (von + dem = vom) bedeutet, dass der Flughafen der Ausgangspunkt ist."
   },
   {
     question: "Wir fahren ___ dem Auto in den Urlaub.",
-    options: ["mit", "in", "durch", "bei"],
+    options: ["mit", "unter", "durch", "bei"],
     answer: "mit",
     explanation: "'mit dem Auto fahren' beschreibt das Verkehrsmittel."
   },
@@ -112,7 +112,7 @@ export const questions: Question[] = [
   },
   {
     question: "Wir gehen ___ dem Regen spazieren.",
-    options: ["bei", "mit", "in", "unter"],
+    options: ["bei", "mit", "wegen", "unter"],
     answer: "bei",
     explanation: "'bei Regen' beschreibt die Umstände oder Bedingungen."
   },
@@ -123,9 +123,9 @@ export const questions: Question[] = [
     explanation: "'seit einer Stunde' gibt an, wann etwas begonnen hat und bis jetzt andauert."
   },
   {
-    question: "Sie fährt ___ Ferien nach Spanien.",
-    options: ["in den", "mit den", "zu den", "bei den"],
-    answer: "in den",
+    question: "Sie fährt ___ den Ferien nach Spanien.",
+    options: ["in", "mit", "zu", "bei"],
+    answer: "in",
     explanation: "'in den Ferien' beschreibt einen Zeitraum für eine Aktivität."
   },
   {
@@ -135,38 +135,38 @@ export const questions: Question[] = [
     explanation: "'Angst vor etwas haben' ist eine feste Verbindung im Deutschen."
   },
   {
-    question: "Ich gehe ___ der Post.",
-    options: ["zur", "in die", "bei der", "an der"],
+    question: "Ich gehe ___ Post.",
+    options: ["zur", "in", "bei", "nach"],
     answer: "zur",
     explanation: "'zur Post gehen' (zu + der = zur) beschreibt das Ziel."
   },
   {
     question: "Sie reist ___ dem Zug.",
-    options: ["mit", "in", "auf", "bei"],
+    options: ["mit", "für", "auf", "bei"],
     answer: "mit",
     explanation: "'mit dem Zug reisen' beschreibt das Verkehrsmittel."
   },
   {
     question: "Das Geschäft liegt ___ dem Park und dem Café.",
-    options: ["zwischen", "neben", "unter", "hinter"],
+    options: ["zwischen", "von", "unter", "für"],
     answer: "zwischen",
     explanation: "'zwischen A und B' beschreibt eine Position in der Mitte von zwei Punkten."
   },
   {
     question: "Er kommt ___ 10 Minuten wieder.",
-    options: ["in", "nach", "zu", "mit"],
+    options: ["in", "zwischen", "zu", "mit"],
     answer: "in",
     explanation: "'in 10 Minuten' bezieht sich auf einen Zeitpunkt in der Zukunft."
   },
   {
     question: "Sie wartet ___ ihren Freund.",
-    options: ["auf", "für", "nach", "um"],
+    options: ["auf", "wegen", "nach", "um"],
     answer: "auf",
     explanation: "'auf jemanden warten' ist eine feste Verbindung im Deutschen."
   },
   {
     question: "Das Handy liegt ___ dem Bett.",
-    options: ["unter", "in", "auf", "neben"],
+    options: ["unter", "seit", "zwischen", "von"],
     answer: "unter",
     explanation: "'unter dem Bett' beschreibt die Position unterhalb von etwas."
   },
@@ -178,7 +178,7 @@ export const questions: Question[] = [
   },
   {
     question: "Sie kommt ___ Hamburg.",
-    options: ["aus", "von", "in", "bei"],
+    options: ["aus", "vom", "in", "bei"],
     answer: "aus",
     explanation: "'aus Hamburg kommen' bedeutet, dass Hamburg der Herkunftsort ist."
   },
@@ -202,7 +202,7 @@ export const questions: Question[] = [
   },
   {
     question: "Sie freut sich ___ das Geschenk.",
-    options: ["über", "für", "auf", "mit"],
+    options: ["über", "für", "wegen", "mit"],
     answer: "über",
     explanation: "'sich freuen über' ist die korrekte Präposition, wenn man bereits etwas erhalten hat."
   },
@@ -214,7 +214,7 @@ export const questions: Question[] = [
   },
   {
     question: "Wir fahren ___ dem Bus zur Schule.",
-    options: ["mit", "in", "auf", "bei"],
+    options: ["mit", "gegen", "um", "bei"],
     answer: "mit",
     explanation: "'mit dem Bus fahren' beschreibt das Verkehrsmittel."
   },
@@ -226,7 +226,7 @@ export const questions: Question[] = [
   },
   {
     question: "Er wartet ___ dem Bahnhof.",
-    options: ["vor", "an", "in", "bei"],
+    options: ["vor", "an", "seit", "bei"],
     answer: "vor",
     explanation: "'vor dem Bahnhof warten' beschreibt die Position außerhalb des Bahnhofs."
   },
@@ -238,7 +238,7 @@ export const questions: Question[] = [
   },
   {
     question: "Sie geht ___ dem Hund spazieren.",
-    options: ["mit", "bei", "zu", "neben"],
+    options: ["mit", "bei", "zu", "ohne"],
     answer: "mit",
     explanation: "'mit dem Hund spazieren gehen' beschreibt eine gemeinsame Aktivität."
   },
@@ -250,49 +250,49 @@ export const questions: Question[] = [
   },
   {
     question: "Er spricht ___ seiner Mutter.",
-    options: ["mit", "zu", "bei", "nach"],
+    options: ["mit", "zu", "bei", "ohne"],
     answer: "mit",
     explanation: "'mit jemandem sprechen' beschreibt ein Gespräch zwischen zwei Personen."
   },
   {
     question: "Wir wohnen ___ Berlin.",
-    options: ["in", "an", "auf", "bei"],
+    options: ["in", "an", "auf", "von"],
     answer: "in",
     explanation: "'in Berlin wohnen' - bei Städten verwendet man 'in'."
   },
   {
     question: "Sie läuft ___ den Park.",
-    options: ["durch", "in", "über", "entlang"],
+    options: ["durch", "von", "über", "entlang"],
     answer: "durch",
     explanation: "'durch den Park laufen' bedeutet, von einer Seite zur anderen zu gehen."
   },
   {
     question: "Das Bild hängt ___ dem Tisch.",
-    options: ["über", "auf", "an", "neben"],
+    options: ["über", "auf", "an", "zu"],
     answer: "über",
     explanation: "'über dem Tisch' beschreibt die Position oberhalb von etwas."
   },
   {
     question: "Wir gehen ___ dem Essen ins Kino.",
-    options: ["nach", "vor", "bei", "mit"],
+    options: ["nach", "wegen", "bei", "mit"],
     answer: "nach",
     explanation: "'nach dem Essen' gibt eine zeitliche Reihenfolge an - erst essen, dann ins Kino."
   },
   {
     question: "Er steht ___ der Ampel.",
-    options: ["an", "auf", "bei", "neben"],
+    options: ["an", "auf", "seit", "durch"],
     answer: "an",
     explanation: "'an der Ampel stehen' beschreibt die Position direkt bei der Ampel."
   },
   {
     question: "Das Museum ist ___ 10 Uhr geöffnet.",
-    options: ["ab", "seit", "von", "zu"],
+    options: ["ab", "an", "bei", "zu"],
     answer: "ab",
     explanation: "'ab 10 Uhr' gibt den Beginn eines Zeitraums an."
   },
   {
     question: "Sie schreibt einen Brief ___ ihren Freund.",
-    options: ["an", "für", "zu", "mit"],
+    options: ["an", "nach", "zu", "mit"],
     answer: "an",
     explanation: "'einen Brief an jemanden schreiben' beschreibt den Empfänger des Briefes."
   },
