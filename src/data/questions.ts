@@ -304,25 +304,27 @@ export const questions: Question[] = [
   }
 ];
 
-// Function to shuffle array using Fisher-Yates algorithm
-const shuffleArray = <T>(array: T[]): T[] => {
-  for (let i = array.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [array[i], array[j]] = [array[j], array[i]];
-  }
-  return array;
-};
-
-// Function to get random questions for a quiz session with randomized option positions
+// Function to get random questions for a quiz session
 export const getRandomQuestions = (count: number): Question[] => {
-  const shuffledQuestions = shuffleArray([...questions]).slice(0, count);
-  
-  // Randomize the position of options for each question
-  return shuffledQuestions.map(question => {
-    const options = shuffleArray([...question.options]);
-    return {
-      ...question,
-      options
-    };
-  });
+  const shuffleArray = <T>(array: T[]): T[] => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
+  return shuffleArray(questions)
+    .slice(0, count)
+    .map(question => {
+      const correctAnswer = question.answer;
+      const shuffledOptions = shuffleArray(question.options);
+      
+      return {
+        ...question,
+        options: shuffledOptions,
+        answer: correctAnswer
+      };
+    });
 };
